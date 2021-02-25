@@ -42,6 +42,7 @@
             // 
             this.labelTitel.AutoSize = true;
             this.labelTitel.Font = new System.Drawing.Font("Bell MT", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTitel.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.labelTitel.Location = new System.Drawing.Point(26, 18);
             this.labelTitel.Name = "labelTitel";
             this.labelTitel.Size = new System.Drawing.Size(170, 30);
@@ -51,7 +52,8 @@
             // labelWachttijd
             // 
             this.labelWachttijd.AutoSize = true;
-            this.labelWachttijd.Font = new System.Drawing.Font("Cambria", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelWachttijd.Font = new System.Drawing.Font("Bell MT", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelWachttijd.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.labelWachttijd.Location = new System.Drawing.Point(27, 149);
             this.labelWachttijd.Name = "labelWachttijd";
             this.labelWachttijd.Size = new System.Drawing.Size(104, 25);
@@ -61,10 +63,11 @@
             // labelWachttijdMelding
             // 
             this.labelWachttijdMelding.AutoSize = true;
-            this.labelWachttijdMelding.Font = new System.Drawing.Font("Calibri", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelWachttijdMelding.Font = new System.Drawing.Font("Bell MT", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelWachttijdMelding.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.labelWachttijdMelding.Location = new System.Drawing.Point(29, 174);
             this.labelWachttijdMelding.Name = "labelWachttijdMelding";
-            this.labelWachttijdMelding.Size = new System.Drawing.Size(70, 18);
+            this.labelWachttijdMelding.Size = new System.Drawing.Size(74, 19);
             this.labelWachttijdMelding.TabIndex = 5;
             this.labelWachttijdMelding.Text = "0 minuten";
             // 
@@ -83,6 +86,7 @@
             // 
             this.labelKar2.AutoSize = true;
             this.labelKar2.Font = new System.Drawing.Font("Bell MT", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelKar2.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.labelKar2.Location = new System.Drawing.Point(29, 87);
             this.labelKar2.Name = "labelKar2";
             this.labelKar2.Size = new System.Drawing.Size(64, 19);
@@ -93,6 +97,7 @@
             // 
             this.labelKar1.AutoSize = true;
             this.labelKar1.Font = new System.Drawing.Font("Bell MT", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelKar1.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.labelKar1.Location = new System.Drawing.Point(29, 68);
             this.labelKar1.Name = "labelKar1";
             this.labelKar1.Size = new System.Drawing.Size(64, 19);
@@ -103,7 +108,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightBlue;
+            this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(279, 227);
             this.Controls.Add(this.labelKar1);
             this.Controls.Add(this.labelKar2);
