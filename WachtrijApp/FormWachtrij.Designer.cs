@@ -46,9 +46,9 @@
             this.labelTitel.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.labelTitel.Location = new System.Drawing.Point(26, 18);
             this.labelTitel.Name = "labelTitel";
-            this.labelTitel.Size = new System.Drawing.Size(170, 30);
+            this.labelTitel.Size = new System.Drawing.Size(173, 39);
             this.labelTitel.TabIndex = 0;
-            this.labelTitel.Text = "Bugs of Horror";
+            this.labelTitel.Text = "Debug Hero";
             // 
             // labelWachttijd
             // 
@@ -57,7 +57,7 @@
             this.labelWachttijd.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.labelWachttijd.Location = new System.Drawing.Point(27, 149);
             this.labelWachttijd.Name = "labelWachttijd";
-            this.labelWachttijd.Size = new System.Drawing.Size(104, 25);
+            this.labelWachttijd.Size = new System.Drawing.Size(135, 31);
             this.labelWachttijd.TabIndex = 4;
             this.labelWachttijd.Text = "Wachttijd";
             // 
@@ -68,7 +68,7 @@
             this.labelWachttijdMelding.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.labelWachttijdMelding.Location = new System.Drawing.Point(29, 174);
             this.labelWachttijdMelding.Name = "labelWachttijdMelding";
-            this.labelWachttijdMelding.Size = new System.Drawing.Size(74, 19);
+            this.labelWachttijdMelding.Size = new System.Drawing.Size(93, 24);
             this.labelWachttijdMelding.TabIndex = 5;
             this.labelWachttijdMelding.Text = "0 minuten";
             // 
@@ -90,7 +90,7 @@
             this.labelKar2.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.labelKar2.Location = new System.Drawing.Point(29, 87);
             this.labelKar2.Name = "labelKar2";
-            this.labelKar2.Size = new System.Drawing.Size(64, 19);
+            this.labelKar2.Size = new System.Drawing.Size(80, 24);
             this.labelKar2.TabIndex = 8;
             this.labelKar2.Text = "Kar 2: ...";
             // 
@@ -101,7 +101,7 @@
             this.labelKar1.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.labelKar1.Location = new System.Drawing.Point(29, 68);
             this.labelKar1.Name = "labelKar1";
-            this.labelKar1.Size = new System.Drawing.Size(64, 19);
+            this.labelKar1.Size = new System.Drawing.Size(80, 24);
             this.labelKar1.TabIndex = 9;
             this.labelKar1.Text = "Kar 1: ...";
             // 
@@ -112,13 +112,13 @@
             this.labelKar3.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.labelKar3.Location = new System.Drawing.Point(29, 106);
             this.labelKar3.Name = "labelKar3";
-            this.labelKar3.Size = new System.Drawing.Size(64, 19);
+            this.labelKar3.Size = new System.Drawing.Size(80, 24);
             this.labelKar3.TabIndex = 10;
             this.labelKar3.Text = "Kar 3: ...";
             // 
             // FormWachtrij
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(279, 227);
@@ -132,7 +132,7 @@
             this.Font = new System.Drawing.Font("Monotype Corsiva", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormWachtrij";
-            this.Text = "Bugs of Horror";
+            this.Text = "Debug Hero";
             this.Load += new System.EventHandler(this.FormWachtrij_Load);
             ((System.ComponentModel.ISupportInitialize)(this.AttractieLogo)).EndInit();
             this.ResumeLayout(false);
